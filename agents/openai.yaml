@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 视频导演"
+  short_description: "根据项目选择剧情或萌宠导演，统筹资产与关键帧，直接交付分镜式H3并续接制作进度"
+  default_prompt: "使用 $ai-video-director，先判断我的视频项目应走哪条导演制作线，再按当前阶段推进。"

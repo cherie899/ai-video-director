@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧情导演"
+  short_description: "人物剧情导演制作：确认必要资产与关键帧后，直接交付包含表演和镜头调度的分镜式H3"
+  default_prompt: "使用 $story-video-director，依据我的剧本和已有素材推进制作，在提示词阶段直接交付分镜式 H3。"
