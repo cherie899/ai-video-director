@@ -4,9 +4,13 @@
 
 ## 能力架构总览
 
-![AI 视频导演能力架构图](assets/ai-video-director-capabilities.png)
+<p align="center">
+  <a href="assets/ai-video-director-capabilities.png">
+    <img src="assets/ai-video-director-capabilities.png" alt="AI 视频导演能力架构图" width="360">
+  </a>
+</p>
 
-总控、专业技能、执行模式、H3输入模式、扩展能力与确认机制一览。
+总控、技能、模式与能力一览。点击图片查看原图。
 
 ## 解决什么问题
 
@@ -33,6 +37,11 @@
 拉片、R1–R4复刻迁移和关键帧联系图仅在明确请求时执行。项目默认不生成最终视频，静态检查不能代替成片声画验证。
 
 ## 制作流程图
+
+视觉重点 → 资产补齐 → 核心关键帧 → 分镜式H3。各阶段按规定批次确认后继续。
+
+<details>
+<summary>展开详细流程：入口路由、确认与返修、按需读取</summary>
 
 ### 入口与独立调用
 
@@ -128,6 +137,7 @@ flowchart LR
 
 新对话、文件更新或上下文缺失时重新定位所需内容；不假定跨对话永久记忆，也不新增缓存文件。拉片与复刻按方案确认后执行；联系图仅使用已检查、已确认且完整的关键帧集合。
 
+</details>
 
 ## 安装方法
 
