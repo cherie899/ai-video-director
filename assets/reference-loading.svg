@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1160" width="1120" height="1160" lang="zh-CN" role="img" aria-labelledby="title desc">
+<title id="title">按需读取</title>
+<desc id="desc">你说目标，导演按当前阶段读取规范，并给出对应交付。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#98401e"/></marker></defs>
+<rect x="0" y="0" width="1120" height="1160" rx="0" fill="#f8f6ef" stroke="none" stroke-width="1.5"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<text x="44" y="43" font-size="21" font-weight="700" fill="#98401e">AI 视频导演</text>
+<text x="44" y="98" font-size="48" font-weight="700" fill="#20251f">按需读取</text>
+<text x="44" y="139" font-size="23" font-weight="400" fill="#4c554a">你说目标，导演按当前阶段读取规范，并给出对应交付。</text>
+<rect x="44" y="174" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="68" y="196" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="78" y="225" font-size="20" font-weight="700" fill="#ffffff">01</text>
+<text x="130" y="229" font-size="31" font-weight="700" fill="#20251f">想要制作图片</text>
+<path d="M68 256 H504" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="68" y="294" font-size="23" font-weight="400" fill="#4c554a">可以说「补角色图」或「做关键帧」。</text>
+<text x="68" y="328" font-size="23" font-weight="400" fill="#4c554a">提供已有素材和保存位置。</text>
+<text x="68" y="362" font-size="23" font-weight="400" fill="#4c554a">生图读取图片、摄影、光色与成像规范。</text>
+<text x="68" y="396" font-size="23" font-weight="400" fill="#4c554a">按用途选择构图、光源和材质。</text>
+<rect x="68" y="454" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="81" y="485" font-size="21" font-weight="700" fill="#98401e">资产图或关键帧，按批确认</text>
+<rect x="592" y="174" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="616" y="196" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="626" y="225" font-size="20" font-weight="700" fill="#ffffff">02</text>
+<text x="678" y="229" font-size="31" font-weight="700" fill="#20251f">有剧本，想知道怎么拍</text>
+<path d="M616 256 H1052" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="616" y="294" font-size="23" font-weight="400" fill="#4c554a">可以说「这是剧本，告诉我怎么拍」。</text>
+<text x="616" y="328" font-size="23" font-weight="400" fill="#4c554a">有剧本即可，想要的效果可口头补充。</text>
+<text x="616" y="362" font-size="23" font-weight="400" fill="#4c554a">导演根据剧情安排动作、空间和镜头。</text>
+<text x="616" y="396" font-size="23" font-weight="400" fill="#4c554a">选读叙事、调度、摄影和声音等规范。</text>
+<rect x="616" y="454" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="629" y="485" font-size="21" font-weight="700" fill="#98401e">原文对应、视觉重点和画面建议</text>
+<rect x="44" y="556" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="68" y="578" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="78" y="607" font-size="20" font-weight="700" fill="#ffffff">03</text>
+<text x="130" y="611" font-size="31" font-weight="700" fill="#20251f">画面已定，想写提示词</text>
+<path d="M68 638 H504" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="68" y="676" font-size="23" font-weight="400" fill="#4c554a">提供画面方案及实际上传的素材。</text>
+<text x="68" y="710" font-size="23" font-weight="400" fill="#4c554a">根据帧锁定与素材用途选择 H3 模式。</text>
+<text x="68" y="744" font-size="23" font-weight="400" fill="#4c554a">首尾帧加其他参考时核对输入能力。</text>
+<text x="68" y="778" font-size="23" font-weight="400" fill="#4c554a">读取对应的格式、对白和素材规则。</text>
+<rect x="68" y="836" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="81" y="867" font-size="21" font-weight="700" fill="#98401e">上传清单与代码块，每批最多 3 段</text>
+<rect x="592" y="556" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="616" y="578" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="626" y="607" font-size="20" font-weight="700" fill="#ffffff">04</text>
+<text x="678" y="611" font-size="31" font-weight="700" fill="#20251f">想看懂或借鉴参考片</text>
+<path d="M616 638 H1052" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="616" y="676" font-size="23" font-weight="400" fill="#4c554a">提供可查看的视频或详细拉片资料。</text>
+<text x="616" y="710" font-size="23" font-weight="400" fill="#4c554a">分析时记录可确认的画面与声音。</text>
+<text x="616" y="744" font-size="23" font-weight="400" fill="#4c554a">想做新片时，按 R1–R4 确定保留程度。</text>
+<text x="616" y="778" font-size="23" font-weight="400" fill="#4c554a">确认迁移方案后进入对应制作阶段。</text>
+<rect x="616" y="836" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="629" y="867" font-size="21" font-weight="700" fill="#98401e">拉片分析或待确认的复刻方案</text>
+<rect x="44" y="940" width="1032" height="157" rx="12" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="68" y="979" font-size="24" font-weight="700" fill="#98401e">单独任务与续接</text>
+<text x="68" y="1014" font-size="22" font-weight="400" fill="#20251f">故事板按明确请求出图。联系图将已确认的关键帧排版成总览。</text>
+<text x="68" y="1048" font-size="22" font-weight="400" fill="#20251f">同一对话已读且仍有效的说明可以复用。缺少或更新时只补读需要的部分。</text>
+<text x="68" y="1082" font-size="22" font-weight="400" fill="#20251f">新对话可提供剧本、已确认素材版本和当前进度，直接接续所需阶段。</text>
+</g>
+</svg>

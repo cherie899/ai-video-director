@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1156" width="1120" height="1156" lang="zh-CN" role="img" aria-labelledby="title desc">
+<title id="title">完整制作与确认节点</title>
+<desc id="desc">按顺序确认四个阶段。局部任务可直接进入所需阶段。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#98401e"/></marker></defs>
+<rect x="0" y="0" width="1120" height="1156" rx="0" fill="#f8f6ef" stroke="none" stroke-width="1.5"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<text x="44" y="43" font-size="21" font-weight="700" fill="#98401e">AI 视频导演</text>
+<text x="44" y="98" font-size="48" font-weight="700" fill="#20251f">完整制作与确认节点</text>
+<text x="44" y="139" font-size="23" font-weight="400" fill="#4c554a">按顺序确认四个阶段。局部任务可直接进入所需阶段。</text>
+<rect x="44" y="174" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="68" y="196" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="78" y="225" font-size="20" font-weight="700" fill="#ffffff">01</text>
+<text x="130" y="229" font-size="31" font-weight="700" fill="#20251f">视觉重点</text>
+<path d="M68 256 H504" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="68" y="294" font-size="23" font-weight="400" fill="#4c554a">读剧本，核对已有素材和制作进度。</text>
+<text x="68" y="328" font-size="23" font-weight="400" fill="#4c554a">提炼原文对应、重点与拟呈现画面。</text>
+<text x="68" y="362" font-size="23" font-weight="400" fill="#4c554a">把抽象概念转成可见的行动与结果。</text>
+<text x="68" y="396" font-size="23" font-weight="400" fill="#4c554a">只要画面建议时，有剧本即可开始。</text>
+<rect x="68" y="454" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="81" y="485" font-size="21" font-weight="700" fill="#98401e">在聊天确认视觉重点 → 进入资产</text>
+<rect x="592" y="174" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="616" y="196" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="626" y="225" font-size="20" font-weight="700" fill="#ffffff">02</text>
+<text x="678" y="229" font-size="31" font-weight="700" fill="#20251f">资产梳理与补齐</text>
+<path d="M616 256 H1052" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="616" y="294" font-size="23" font-weight="400" fill="#4c554a">按角色图 → 场景图 → 复用道具图推进。</text>
+<text x="616" y="328" font-size="23" font-weight="400" fill="#4c554a">现成素材足够时复用，只补缺口。</text>
+<text x="616" y="362" font-size="23" font-weight="400" fill="#4c554a">一次性道具在场景或关键帧中呈现。</text>
+<text x="616" y="396" font-size="23" font-weight="400" fill="#4c554a">生图前确认目录，按类别检查和交付。</text>
+<rect x="616" y="454" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="629" y="485" font-size="21" font-weight="700" fill="#98401e">每类确认后继续 → 资产就绪</text>
+<rect x="592" y="590" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="616" y="612" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="626" y="641" font-size="20" font-weight="700" fill="#ffffff">03</text>
+<text x="678" y="645" font-size="31" font-weight="700" fill="#20251f">图像制作</text>
+<path d="M616 672 H1052" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="616" y="710" font-size="23" font-weight="400" fill="#4c554a">核心关键帧为默认，约每 30 秒 5 张。</text>
+<text x="616" y="744" font-size="23" font-weight="400" fill="#4c554a">生图默认读取摄影、光色与成像规范。</text>
+<text x="616" y="778" font-size="23" font-weight="400" fill="#4c554a">关键帧独立生成，每批最多 5 张。</text>
+<text x="616" y="812" font-size="23" font-weight="400" fill="#4c554a">按明确请求制作故事板或联系图。</text>
+<rect x="616" y="870" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="629" y="901" font-size="21" font-weight="700" fill="#98401e">逐图检查并分批确认 → 进入 H3</text>
+<rect x="44" y="590" width="484" height="350" rx="16" fill="#fffefa" stroke="#dedbd1" stroke-width="1.5"/>
+<rect x="68" y="612" width="46" height="43" rx="9" fill="#98401e" stroke="none" stroke-width="1.5"/>
+<text x="78" y="641" font-size="20" font-weight="700" fill="#ffffff">04</text>
+<text x="130" y="645" font-size="31" font-weight="700" fill="#20251f">分镜式 H3</text>
+<path d="M68 672 H504" stroke="#dedbd1" stroke-width="1.5"/>
+<text x="68" y="710" font-size="23" font-weight="400" fill="#4c554a">同一次完成镜头设计与提示词装配。</text>
+<text x="68" y="744" font-size="23" font-weight="400" fill="#4c554a">每段给出段信息、上传素材及画面概述。</text>
+<text x="68" y="778" font-size="23" font-weight="400" fill="#4c554a">每段附完整可复制代码块。</text>
+<text x="68" y="812" font-size="23" font-weight="400" fill="#4c554a">每批最多 3 段，确认后继续。</text>
+<rect x="68" y="870" width="436" height="46" rx="9" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="81" y="901" font-size="21" font-weight="700" fill="#98401e">聊天交付提示词，沿用已确认素材</text>
+<path d="M 538 349 L 582 349" fill="none" stroke="#98401e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 834 535 L 834 579" fill="none" stroke="#98401e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 582 765 L 538 765" fill="none" stroke="#98401e" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="44" y="975" width="1032" height="157" rx="12" fill="#f9ede1" stroke="none" stroke-width="1.5"/>
+<text x="68" y="1014" font-size="24" font-weight="700" fill="#98401e">返修与缺口回退</text>
+<text x="68" y="1049" font-size="22" font-weight="400" fill="#20251f">只修订未通过的部分。缺必要资产回到 02，缺关键帧回到 03。</text>
+<text x="68" y="1083" font-size="22" font-weight="400" fill="#20251f">图片修改递增版本，后续采用最新已确认版。无图文字生成可直接进入 04。</text>
+<text x="68" y="1117" font-size="22" font-weight="400" fill="#20251f">关键帧默认作为全能参考。首帧或尾帧锁定按实际任务要求处理。</text>
+</g>
+</svg>

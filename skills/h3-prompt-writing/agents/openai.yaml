@@ -1,4 +1,4 @@
 interface:
   display_name: "H3 提示词"
-  short_description: "独立编写基础与全能参考H3提示词，或承接已确认导演设计；默认跟随用户语言"
+  short_description: "独立编写基础与全能参考H3提示词，或承接已确认导演设计；正文默认中文"
   default_prompt: "使用 $h3-prompt-writing，将我的画面设计和素材整理为可直接复制的 H3 提示词。"

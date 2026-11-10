@@ -26,7 +26,7 @@ For Chinese output, the corresponding first line is `目标视频在0.00秒处�
 **FL2VA** always uses:
 
 ```text
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot N) aligns with the S.SS-second mark of the target video.
+How the reference pictures align with the target video — <Picture 1> (from [Shot 1]) aligns with the 0.00-second mark of the target video; <Picture 2> (from [Shot N]) aligns with the S.SS-second mark of the target video.
 ```
 
 For Chinese output: `参考图与目标视频对齐：<Picture 1>（对应 [Shot 1]）对齐0.00秒；<Picture 2>（对应 [Shot N]）对齐视频结束的S.SS秒。`
@@ -97,7 +97,7 @@ Do not add a timestamp to the first shot. Use sequential shot numbers for later 
 [Shot 2] At 00:03.500, the camera cuts to...
 ```
 
-After the fixed cut notation, describe the new view in the selected output language, such as `镜头切至` or `the camera cuts to`. When explicitly requested by the user, cross-dissolve, fade, or wipe may also be used. A cut should introduce new information about the subject, space, state, viewpoint, or time. If only the distance or a slight angle needs to change, prefer camera motion.
+After the fixed cut notation, describe the new view in the selected output language, such as `镜头切至` or `the camera cuts to`. Cross-dissolve, fade, or wipe may be used when requested by the user or specified in the director design supplied for assembly. A cut should introduce new information about the subject, space, state, viewpoint, or time. If only the distance or a slight angle needs to change, prefer camera motion.
 
 ### 4.3 Camera Motion: Motion Type + Amplitude + Speed
 
@@ -148,6 +148,10 @@ The man (S1) says in an off-screen voiceover: <d>[English] I still remember that
 ```
 
 When the same line of dialogue or lyrics crosses a cut, use `<scenetrans>` at the connecting points in both parts and explicitly state that the audio continues across the cut. Use `<cutoff>` when speech is truncated by the end of the video. Continuity may be expressed with `continues seamlessly across the cut`, `continues uninterrupted into the next shot`, `carries over from the previous shot`, or `remains audible across the transition`.
+
+Keep the approved cast and blocking for each beat. Distinguish visible actors, observers, and off-screen speakers. For speech through a screen, mask, or device, specify the sound source and the allowed mouth and facial motion separately. If the design calls for speech without lip movement, keep the line and state what remains visible. When the camera cuts to a listener, state whether the original speaker continues, what reaction is visible, and when the listener replies.
+
+Synchronize speech with the picture. Align visible speech with the speaker's lip movements when the character uses lip sync. During voiceover or off-screen dialogue, start the corresponding action or explanation as the relevant words are heard. Allow enough overlap for the viewer to understand the visual change. Keep the original words and make time for the picture within the speaking beat.
 
 ### 4.5 On-Screen Text
 
@@ -206,9 +210,9 @@ non_diegetic_music: Sustained cello notes at a slow tempo with widely spaced pia
 The two images anchor the opening and ending respectively. The body should not repeat two static image descriptions; instead, it should supply the motion path that connects them. The following example is an eight-second single shot.
 
 ```text
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 8.00-second mark of the target video.
+How the reference pictures align with the target video — <Picture 1> (from [Shot 1]) aligns with the 0.00-second mark of the target video; <Picture 2> (from [Shot 1]) aligns with the 8.00-second mark of the target video.
 
-integrated_multimodal_description: [Shot 1] Live-action, cinematic, a rain-soaked cyclist begins in the position and framing established by Picture 1, holding a closed black umbrella beside a silver bicycle. The camera pulls out with small amplitude at slow speed as she releases the bicycle handle, raises the umbrella above her shoulder, and presses the runner upward until the canopy opens. Water rolls from the expanding fabric while she steps beneath it, rotates the handle into the final angle, and settles into the pose, spacing, and composition established by Picture 2 at the end of the shot.
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a rain-soaked cyclist begins in the position and framing established by <Picture 1>, holding a closed black umbrella beside a silver bicycle. The camera pulls out with small amplitude at slow speed as she releases the bicycle handle, raises the umbrella above her shoulder, and presses the runner upward until the canopy opens. Water rolls from the expanding fabric while she steps beneath it, rotates the handle into the final angle, and settles into the pose, spacing, and composition established by <Picture 2> at the end of the shot.
 
 overall_soundscape: Rain falls steadily on the pavement, followed by the metallic click of the umbrella runner and the soft snap of the canopy opening. Water drips from the bicycle frame as distant traffic passes.
 

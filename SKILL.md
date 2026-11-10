@@ -21,6 +21,6 @@ description: "Use when 用户需要统筹人物剧情或萌宠视频制作、从
 | 阶段、进度、确认点与导演交付 | [制作流程](references/production-workflow.md) |
 | 资产、关键帧、图片检查与版本 | [图片规范](references/image-standards.md) |
 | 场面调度、摄影、光色、声音与分镜装配 | [分镜导演规范](references/storyboard-direction.md) |
-| 用户明确要求拉片、复刻或联系图 | [按需能力](references/optional-workflows.md) |
+| 用户明确要求拉片、复刻、叙事故事板或联系图 | [按需能力](references/optional-workflows.md) |
 
 只在对应任务和阶段读取所需规范。同一对话中已读、仍在上下文且未变化的规范直接复用；新对话、文件更新或上下文缺失时只补读当前入口、阶段及问题所需部分，不通读全包，也不另建缓存或加载台账。人物与萌宠差异维护在各自入口；H3 模式、语法和交付维护在 H3 Skill 及其参考中，不在总控复制。

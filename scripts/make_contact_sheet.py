@@ -1,4 +1,4 @@
-"""Render existing keyframes with visible review states; never modify originals."""
+"""Render a contact sheet from confirmed, readable keyframe files."""
 import argparse
 import json
 import math
@@ -19,9 +19,14 @@ def main():
     ids = [entry["id"] for entry in entries]
     if len(ids) != len(set(ids)) or any(not re.fullmatch(r"KF_\d{3,}", x) for x in ids):
         parser.error("Expected unique KF_001-style IDs")
-    statuses = {"passed", "unreviewed", "needs_revision", "blocked"}
-    if any(entry["status"] not in statuses for entry in entries):
-        parser.error("Invalid review status")
+    if any(entry.get("status") != "passed" for entry in entries):
+        parser.error("All frames must be confirmed with status passed")
+    for entry in entries:
+        if not entry.get("path"):
+            parser.error("Each frame requires a file path")
+        path = args.manifest.parent / entry["path"]
+        if not path.is_file():
+            parser.error(f"Missing frame file: {path}")
     if args.output.exists():
         parser.error("Output exists; choose a new version path")
     entries.sort(key=lambda x: int(x["id"].split("_")[1]))
@@ -31,28 +36,19 @@ def main():
     sheet = Image.new("RGB", (cols * (width + gap) + gap,
                                rows * (height + label + gap) + gap), "#15191f")
     draw = ImageDraw.Draw(sheet)
-    missing = 0
     for index, entry in enumerate(entries):
         x = gap + index % cols * (width + gap)
         y = gap + index // cols * (height + label + gap)
-        path = args.manifest.parent / entry["path"] if entry.get("path") else None
-        state = entry["status"]
-        if path and path.is_file():
-            with Image.open(path) as source:
-                thumb = ImageOps.contain(ImageOps.exif_transpose(source).convert("RGB"), (width, height))
-                sheet.paste(thumb, (x + (width - thumb.width) // 2, y + (height - thumb.height) // 2))
-        else:
-            missing += 1
-            state = "MISSING / " + state
-            draw.rectangle((x, y, x + width - 1, y + height - 1), fill="#472d32")
-            draw.text((x + 15, y + 90), "MISSING - NOT GENERATED", fill="white")
-        draw.text((x + 4, y + height + 8), entry["id"] + " | " + state,
-                  fill="#9be6b0" if state == "passed" else "#ffd281")
+        path = args.manifest.parent / entry["path"]
+        with Image.open(path) as source:
+            thumb = ImageOps.contain(ImageOps.exif_transpose(source).convert("RGB"), (width, height))
+            sheet.paste(thumb, (x + (width - thumb.width) // 2, y + (height - thumb.height) // 2))
+        draw.text((x + 4, y + height + 8), entry["id"] + " | passed", fill="#9be6b0")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("xb") as output:
         sheet.save(output, format="PNG")
     print(json.dumps({"output": str(args.output.resolve()), "frames": len(entries),
-                      "missing": missing, "not_passed": sum(e["status"] != "passed" for e in entries)}, ensure_ascii=False))
+                      "missing": 0, "not_passed": 0}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
